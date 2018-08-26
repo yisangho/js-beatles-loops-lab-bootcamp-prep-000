@@ -16,3 +16,14 @@ function johnLennonFacts(arrJohn) {
   }
   return arrTempStore
 }
+
+function iLoveTheBeatles(num) {
+  var arrTempStore = [];
+
+  let i  = 0
+  do{
+    arrTempStore[i] = "I love the Beatles!"
+  } while ( i < arrJohn.length )
+   
+  return arrTempStore
+}
