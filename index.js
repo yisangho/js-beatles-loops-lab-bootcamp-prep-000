@@ -24,7 +24,7 @@ function iLoveTheBeatles(num) {
   do{
     arrTempStore[i] = "I love the Beatles!"
     i++
-  } while ( i < num )
+  } while ( i <= num )
 
   return arrTempStore
 }
