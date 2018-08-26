@@ -23,7 +23,8 @@ function iLoveTheBeatles(num) {
   let i  = 0
   do{
     arrTempStore[i] = "I love the Beatles!"
+    i++
   } while ( i < arrJohn.length )
-   
+
   return arrTempStore
 }
